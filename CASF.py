@@ -212,7 +212,6 @@ def ActiveSampling(metric_num, scores, hmetric_key, pre_sample_rate, batch_sampl
             Learner Testing:
                 Function:
                     Calculate learner prediction scores for all samples
-                    在原来的样本集中剔除已被采的样本(if判断, 直到采满即可？) , 根据学习器指标排序, 按照系统采样法采40%样本
                 Output:
                     sample_list: Sampling list
         '''
