@@ -3,7 +3,7 @@ This is the Repo for the paper: Better than Random: Reliable NLG Human Evaluatio
 
 ## Motivation
 <div align=center>
-<img src="https://github.com/EnablerRx/CASF/blob/main/Fig/motivation.png" width="180" height="105">
+<img src="https://github.com/EnablerRx/CASF/blob/main/Fig/motivation.png" width="350" height="315">
 </div>
 
 Random sampling is the most vital sampling method in natural language language gold-standarded human evaluation to save labor and costs, which is widely used in human evaluation sampling for its simplicity. However, random sampling can be risky. 
