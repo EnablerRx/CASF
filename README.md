@@ -35,6 +35,7 @@ Run `CASF_tool.py` to select a sample subset for human evaluation.
 
 
 **Batch Sampling Phases**
+
 `scores.pkl`: Automatic evaluation scores for each Input-output pairs and human evaluation results for samples selected in the previous sampling phase
 
 `hmetric_key_SummEval`:  human evaluation aspect names, human evaluation score keys in the  `scores.pkl` file
