@@ -31,7 +31,7 @@ Run `CASF_tool.py` to select a sample subset for human evaluation.
 
 `hmetric_key_SummEval`:  human evaluation aspect names, human evaluation score keys in the  `scores.pkl` file
 
-`sample_rate`: total sampling rate, eg 0.5 for sampling 50% samples 
+`sample_rate`: total sampling rate, eg. 0.5 for sampling 50% samples 
 
 
 **Batch Sampling Phases**
@@ -40,7 +40,7 @@ Run `CASF_tool.py` to select a sample subset for human evaluation.
 
 `hmetric_key_SummEval`:  human evaluation aspect names, human evaluation score keys in the  `scores.pkl` file
 
-`sample_rate`: total sampling rate, eg 0.5 for sampling 50% samples 
+`sample_rate`: total sampling rate, eg. 0.5 for sampling 50% samples 
 
 ### Output:
 Print selected samples' index for human evaluation 
