@@ -12,7 +12,7 @@ On the one hand, random sampling can lead to clustered selection, a phenomenon i
 
 On the other hand, random sampling may have the risk of data manipulation. Researchers can choose samples at will or conduct multiple random sampling to select a favorite subset, which will lead to unfair evaluation results. 
 
-Since different sampling subsets may result in different inter-system rankings in human judgment, it is difficult to reliably select the best system. We urgently need a better sampling method to deliver reliable human evaluation with low labor and cost.
+Since different sampling subsets may result in different inter-system rankings in human judgment (as shown in Figure 1), it is difficult to reliably select the best system. We urgently need a better sampling method to deliver reliable human evaluation with low labor and cost.
 
 ## Contributions
 1) We investigate and experimentally analyze the sampling problem for the gold standard human evaluation in natural language generation.
@@ -24,6 +24,19 @@ Since different sampling subsets may result in different inter-system rankings i
 ## Direct Use
 Run `CASF_tool.py` to select a sample subset for human evaluation. 
 
+### Input:
+**Preliminary Sampling Phase**
+`scores.pkl`: Automatic evaluation scores for each Input-output pairs
+`hmetric_key_SummEval`:  human evaluation aspect names, human evaluation score keys in the  `scores.pkl` file
+`sample_rate`: total sampling rate, eg 0.5 for sampling 50% samples 
+
+**Batch Sampling Phases**
+`scores.pkl`: Automatic evaluation scores for each Input-output pairs and human evaluation results for samples selected in the previous sampling phase
+`hmetric_key_SummEval`:  human evaluation aspect names, human evaluation score keys in the  `scores.pkl` file
+`sample_rate`: total sampling rate, eg 0.5 for sampling 50% samples 
+
+### Output:
+Print selected samples' index for human evaluation 
 
 
 ## Reproduce
